@@ -210,6 +210,17 @@ code{
 	}
 }
 
+.slide--namecard.visible{
+	justify-content: flex-end;
+	-webkit-justify-content: flex-end;
+	-moz-justify-content: flex-end;
+	padding: 3rem;
+
+	.name, .handle{
+		text-transform: none;
+	}
+}
+
 #fixed a{
 	font-family: 'avenir', serif;
     font-weight: 100;
@@ -342,6 +353,12 @@ code{
 	h2, h4 {
 		text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);	
 	}
+}
+
+#caniuse{
+    background-image: url(../assets/images/caniuse.jpg);
+	background-size: cover;
+	background-position: center;	
 }
 
 #filters{
