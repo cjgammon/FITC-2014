@@ -12,20 +12,16 @@ define(function (require) {
 		initialize: function () {
 			this.$el = $('#progressHolder');
             this.statusBar = $('#progressBar');
-            //this.timeline = Vars.get('timeline');
             this.percent = 0;
 		},
 		
-		render: function () {
-			/*
-			TODO:: use number of slides out of total instead
-            var percent = ((this.timeline.time() - 1) / (this.timeline.duration() - 1.5)) * 100;
+		render: function () {									
+			var percent = (Vars.get('currentSlide') / (Vars.get('slides').length - 1)) * 100;
             
             if (this.percent !== percent) {
                 this.statusBar.width(percent + '%');
                 this.percent = percent;
             }
-			*/
 		}
 		
 	});

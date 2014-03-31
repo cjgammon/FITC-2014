@@ -99,6 +99,7 @@ aside{
     height: 5px;
     width: 100%;
     background: $progress-holder-color;
+	z-index: 100;
 }
 
 #progressBar{

@@ -104,7 +104,8 @@ define(function (require) {
 			}
 
 			this.first = false;
-			
+			this.progressBar.render();
+            
         },
 
         handle_KEYDOWN: function (e) {

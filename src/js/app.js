@@ -57,7 +57,7 @@ define(function (require) {
 					$(this).attr({
 						'src': $(this).data('src')
 					});
-				})
+				});
 				return false;
 			} else {
 				return true;
