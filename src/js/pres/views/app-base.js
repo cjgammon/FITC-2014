@@ -162,6 +162,7 @@ define(function (require) {
             	view.trigger();
             }
 			*/
+			
 			if (list.length > 0) {
                 this.triggerList($el);
             } else if (video.length > 0) {
@@ -307,7 +308,7 @@ define(function (require) {
 				if (!view) {
 					view = new Base();
 				}
-				
+								
 				view.setElement($this);
 
 				slide.set({

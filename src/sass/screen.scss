@@ -424,6 +424,12 @@ code{
 	background-position: center;
 }
 
+#dynamic-mask-demo{
+    background-image: url(../assets/images/cupcakes.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
 #video{
 	video{
 		position: absolute;
@@ -443,8 +449,56 @@ code{
 	background-position: center bottom;
 
     h2{
-        color: white;
-		text-shadow: 0 0 10px rgba(199, 199, 132, 0.5);
+        color: rgb(162, 56, 14);
+		// text-shadow: 0 0 10px rgba(199, 199, 132, 0.5);
+    }
+}
+
+#workflows{
+    background-image: url(../assets/images/workflows.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#camera-tool{
+    background-image: url(../assets/images/cameratool.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#generator{
+    background-image: url(../assets/images/creativecloud.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#unicorn-chart{
+	background: white;
+
+	iframe{
+		background: white;
+	}
+}
+
+#word-girl{
+    background-image: url(../assets/images/wordgirl.jpg);
+	background-size: cover;
+	background-position: center;
+
+    h2{
+        color: black;
+    }
+}
+
+#word-girl-psd{
+    background-color: #ccc;
+    background-image: url(../assets/images/wordgirl-psd.png);
+    background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+
+    a{
+        color: black;
     }
 }
 
