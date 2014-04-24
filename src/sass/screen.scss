@@ -449,8 +449,10 @@ code{
 	background-position: center bottom;
 
     h2{
-        color: rgb(162, 56, 14);
-		// text-shadow: 0 0 10px rgba(199, 199, 132, 0.5);
+    	padding: .25em;
+    	width: 100%;
+        color: white;
+        background: rgba(0, 0, 0, 0.25);
     }
 }
 
@@ -485,7 +487,7 @@ code{
 	background-size: cover;
 	background-position: center;
 
-    h2{
+    a, h2{
         color: black;
     }
 }
@@ -497,7 +499,7 @@ code{
 	background-size: contain;
 	background-position: center;
 
-    a{
+    a, h2{
         color: black;
     }
 }
