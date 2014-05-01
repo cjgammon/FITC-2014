@@ -40,3 +40,5 @@ Concepts Discussed
 CSS Canvas Drawing | https://www.webkit.org/blog/176/css-canvas-drawing/
 
 Food Network Project | http://blogs.adobe.com/webplatform/2014/01/16/making-the-web-sweeter/
+
+Photoshop Generator | http://blogs.adobe.com/photoshopdotcom/2013/09/introducing-adobe-generator-for-photoshop-cc.html
