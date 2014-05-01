@@ -71,17 +71,14 @@
     background-position: center center;
     cursor: pointer;
 	outline: 0px rgba(255, 255, 255, 0.5) solid;
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-    -webkit-transition: box-shadow .7s, -webkit-transform .7s ease-in-out, outline .2s ease-out, background-position 1s, background-size 1s, -webkit-filter 1s;
-    -moz-transition: box-shadow .7s, -moz-transform .7s ease-in-out, outline .2s ease-out, background-position 1s, background-size 1s;
-    transition: box-shadow .7s, transform .7s ease-in-out, outline .2s ease-out, background-position 1s, background-size 1s, filter 1s;
+    -webkit-transition: -webkit-transform .7s ease-in-out, outline .2s ease-out, background-position 1s, background-size 1s, -webkit-filter 1s;
+    -moz-transition: -moz-transform .7s ease-in-out, outline .2s ease-out, background-position 1s, background-size 1s;
+    transition: transform .7s ease-in-out, outline .2s ease-out, background-position 1s, background-size 1s, filter 1s;
     @include transform(translateZ(0));
 
     &:hover{
 		outline: 10px rgba(225, 225, 225, 0.75) solid;
         -webkit-filter: sepia(0.5) saturate(1) contrast(1.7);
-        @include transform(scale(1.1) translateZ(0));
-        box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.5);
     }
 }
 
