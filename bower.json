@@ -6,6 +6,7 @@
         "backbone-amd": "1.1.0",
         "underscore-amd": "1.5.2",
         "requirejs": "2.1.10",
-        "threejs": null
+        "threejs": "r65",
+        "snap.svg": "v0.2.0"
     }
 }

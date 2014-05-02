@@ -8,7 +8,7 @@ define(function (require) {
 
 	require('tweenmax');
     //require('vendors/eve'); //does not work with modules, in DOM
-	require('vendor/snap/snap.svg');
+	require('snap');
 
 	UIView = Backbone.View.extend({
 		
